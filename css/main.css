@@ -7,3 +7,10 @@
  left: 0;
  right: 0;
 }
+.s-sidebar{
+    background-color: darkgrey;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}

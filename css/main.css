@@ -1,11 +1,45 @@
-body{
+html, body{
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 .s-header{
  background-color: darkgrey;
  height: 53px;
- width: 100%;  }
- .s-sidebar{
+ width: 100%; 
+display: flex;
+}
+.s-header > .s-logo{
+    
+    margin: 1px;
+}
+.s-container{
+display: flex;
+width: 100%;
+height: 100%;
+}
+.s-aside{
+    display: flex;
+    width: 19%;
+   
+    background-color: gray;
+    min-height: 100%;
+}
+.s-aside > ul{
+    top: 0;
+    list-style-type: none;
+    padding: 20%;
+}
+.s-aside > ul > li{
+    line-height: 300%;
+}
+.s-section{
+width: 100%;
+height: 100%;
+background-color: hotpink;
+display: flex;
+}
+ /* .s-sidebar{
     background-color: darkgrey;
     width: 25%;
     height: 100%;
@@ -20,7 +54,7 @@ ul.s-sidebar-list > li{
 .s-sidebar-list > li > a{
     text-decoration: none;
     color: black;
-}
+} */
 /*.s-panel{
     background-color: whitesmoke;
     width: 20%;

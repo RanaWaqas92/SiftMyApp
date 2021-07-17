@@ -5,58 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sift -</title>
+    <link rel="icon" type="image/png" href="img/logo/siftlogo.jpg" >
     <link rel="stylesheet" href="./css/main.css" >
-    <!-- <link rel="stylesheet" href="css/fontawesome.css" >
-    <link rel="stylesheet" href="css/all.css" > -->
+    <link rel="stylesheet" href="css/fontawesome.css" >
+    <link rel="stylesheet" href="css/all.css" >
 </head>
+<style>
 
-<body>
-    
-        <div class="s-header">
-            <!-- web logo -->
-            <div class=""></div>
-            <div class="s-logo">
-                <img src="img/logo/siftlogo.jpg" height="50" width="50" />
-            </div>
+</style>
+<body>    
+    <!--header -->
+    <div class="s-header">
+            <!-- nav left -->
+            <ul class="s-header-logo-nav">
+                <li class="s-logo-nav">
+                    <a class="nav-link">
+                        <span class="fa fa-bars" onclick="expendColleps()"></span>
+                    </a>
+                </li>
+                <li class="s-logo-nav">
+                    <!-- web logo -->
+                    <a href="#">
+                        <img src="img/logo/siftlogo.jpg" height="50" width="50" class="s-logo" />
+                    </a>
+                </li>
+            </ul>
+            <!-- end nav left -->
         </div>
+        <!--end header -->
+
+         <!--side bars -->
        <div class="s-container">
-        <div class="s-aside">
-            <ul>
-                <li>
-                    <a href="#Blog">Blog</a>
+           <!--side bars ul -->
+           <ul class="s-sidebar-nav">
+               <!--side bars ul li blogs -->
+                <li class="s-sidebar-nav-item">
+                    <a href="#" class="s-sidebar-nav-link">
+                        <div>
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <span>
+                            Blogs
+                        </span>
+                    </a>
                 </li>
-                <li>
-                    <a href="#Book">Book</a>
+                <!--end side bars ul li blogs -->
+                <!--side bars ul li books -->
+                <li class="s-sidebar-nav-item">
+                    <a href="#" class="s-sidebar-nav-link">
+                        <div>
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <span>
+                            Books
+                        </span>
+                    </a>
                 </li>
-                <li>
-                    <a href="#Video">Video</a>
+                <!--end side bars ul li books -->
+                <!--side bars ul li video -->
+                <li class="s-sidebar-nav-item">
+                    <a href="#" class="s-sidebar-nav-link">
+                        <div>
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <span>
+                            Video
+                        </span>
+                    </a>
                 </li>
-            </ul>
-        </div>
-        <div class="s-section">
-
-        </div>
-       
-    </div>    
-   
- <!-- <aside>
-        <div class="s-sidebar">
-            <ul class="s-sidebar-list">
-                <li><a href="#">Blogs</a><i class="fa fa-bars" aria-atomic="true"></i></li>
-                <li><a href="#">Books</a></li>
-                <li><a href="#">Video</a></li>
-            </ul>
-        </div>
-    </aside> -->
-    <!--    <div class="s-panel">
-
-    </div>
-    <div class="s-panel">
-
-    </div> -->
-    <!-- <script src="js/jquery/jquery-3.6.0.min.js"></script>
-    <script src="js/fontawesome.js"></script> -->
-  
+                <!--end side bars ul li video -->
+           </ul>
+           <!--end side bars ul -->
+       </div>
+     <!--end side bars -->
+    <script src="js/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="js/main/main.js"></script>
 
 </html>

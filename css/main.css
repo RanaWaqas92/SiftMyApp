@@ -117,36 +117,8 @@ html, body{
 	height: 50px;
 	position: relative;
 }
-
-.s-sidebar-nav-link:hover {
-	background: var(--second-bg-color);
-}
-.s-sidebar-nav-link.active {
-	background: var(--second-bg-color);
-	color: var(--danger-color);
-}
-
-.s-sidebar-nav-link.active div {
-	border-left: 5px solid var(--danger-color);
-}
-
-.s-sidebar-nav-link.active i {
-	color: var(--danger-color);
-	margin-left: -5px;
-}
-
-.s-sidebar-expand .sidebar {
-	width: 250px;
-}
-
-.s-sidebar-expand .wrapper {
-	margin-left: 250px;
-}
-
-.row {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+.s-sidebar-nav-item:hover{
+	background-color: var(--light-second-color);
 }
 /* .s-header > .s-logo{
     
